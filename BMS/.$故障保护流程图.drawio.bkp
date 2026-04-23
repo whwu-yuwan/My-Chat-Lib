@@ -1,6 +1,6 @@
-<mxfile host="Electron">
+<mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="G-28QRArA21jzt4p1wB3">
-    <mxGraphModel dx="1585" dy="2132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1076" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -244,12 +244,6 @@
         </mxCell>
         <mxCell id="aeb-ekpJ5_-7S0TX7OEh-59" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fontSize=15;fontStyle=0;strokeColor=default;fillColor=default;spacingLeft=5;convertToSvg=0;svgWhiteSpace=wrap;" value="等待下一次报警" vertex="1">
           <mxGeometry height="50" width="140" x="210" y="930" as="geometry" />
-        </mxCell>
-        <mxCell id="PAXFjapNI05UGs11aNQL-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
-          <mxGeometry height="1080" width="1190" x="60" y="-40" as="geometry" />
-        </mxCell>
-        <mxCell id="PAXFjapNI05UGs11aNQL-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=31;fontStyle=1" value="故障保护任务" vertex="1">
-          <mxGeometry height="30" width="235" x="195" y="-10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
