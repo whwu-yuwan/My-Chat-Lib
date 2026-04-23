@@ -1,0 +1,46 @@
+<mxfile host="Electron">
+  <diagram name="第 1 页" id="GZl1vtyc8Y3gROtGmFoT">
+    <mxGraphModel dx="1340" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yTCSV8CE8HJtZIqUByGP-17" edge="1" parent="1" source="yTCSV8CE8HJtZIqUByGP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yTCSV8CE8HJtZIqUByGP-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yTCSV8CE8HJtZIqUByGP-18" edge="1" parent="1" source="yTCSV8CE8HJtZIqUByGP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="yTCSV8CE8HJtZIqUByGP-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yTCSV8CE8HJtZIqUByGP-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="osDelay250ms" vertex="1">
+          <mxGeometry height="30" width="120" x="250" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="yTCSV8CE8HJtZIqUByGP-9" edge="1" parent="1" source="yTCSV8CE8HJtZIqUByGP-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yTCSV8CE8HJtZIqUByGP-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yTCSV8CE8HJtZIqUByGP-19" edge="1" parent="1" source="yTCSV8CE8HJtZIqUByGP-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yTCSV8CE8HJtZIqUByGP-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yTCSV8CE8HJtZIqUByGP-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="读取SOC,SOH,FCC" vertex="1">
+          <mxGeometry height="30" width="120" x="250" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="yTCSV8CE8HJtZIqUByGP-20" edge="1" parent="1" source="yTCSV8CE8HJtZIqUByGP-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yTCSV8CE8HJtZIqUByGP-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yTCSV8CE8HJtZIqUByGP-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="z100大端序转成MCU小端序" vertex="1">
+          <mxGeometry height="40" width="120" x="250" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="yTCSV8CE8HJtZIqUByGP-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;rounded=1;fontSize=15;" value="完成" vertex="1">
+          <mxGeometry height="30" width="120" x="250" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="yTCSV8CE8HJtZIqUByGP-21" edge="1" parent="1" source="yTCSV8CE8HJtZIqUByGP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="yTCSV8CE8HJtZIqUByGP-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yTCSV8CE8HJtZIqUByGP-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="检查合理性" vertex="1">
+          <mxGeometry height="40" width="120" x="250" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="yTCSV8CE8HJtZIqUByGP-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="CRC校验" vertex="1">
+          <mxGeometry height="40" width="120" x="250" y="430" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
