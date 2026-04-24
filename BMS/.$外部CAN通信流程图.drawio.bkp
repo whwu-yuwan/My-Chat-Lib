@@ -1,0 +1,71 @@
+<mxfile host="Electron">
+  <diagram name="第 1 页" id="Oj86HlTP2apShCt7lahl">
+    <mxGraphModel dx="1340" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qRysnB14ObCyy-Xikfhi-4" edge="1" parent="1" source="qRysnB14ObCyy-Xikfhi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qRysnB14ObCyy-Xikfhi-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qRysnB14ObCyy-Xikfhi-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;rounded=1;fontSize=15;" value="中断触发" vertex="1">
+          <mxGeometry height="30" width="120" x="200" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qRysnB14ObCyy-Xikfhi-6" edge="1" parent="1" source="qRysnB14ObCyy-Xikfhi-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qRysnB14ObCyy-Xikfhi-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qRysnB14ObCyy-Xikfhi-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="读取CAN帧信息:&lt;div&gt;帧ID,DLC数据长度,DATA[8]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="224" x="148" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="qRysnB14ObCyy-Xikfhi-10" edge="1" parent="1" source="qRysnB14ObCyy-Xikfhi-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qRysnB14ObCyy-Xikfhi-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qRysnB14ObCyy-Xikfhi-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="&amp;nbsp;将帧信息打包成结构体：&lt;br/&gt;    typedef struct {&lt;br/&gt;        uint32_t id;&lt;br/&gt;        uint8_t dlc;&lt;br/&gt;        uint8_t data[8];&lt;br/&gt;    } CAN_RxFrame_t;" vertex="1">
+          <mxGeometry height="150" width="224" x="148" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="qRysnB14ObCyy-Xikfhi-14" edge="1" parent="1" source="qRysnB14ObCyy-Xikfhi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qRysnB14ObCyy-Xikfhi-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qRysnB14ObCyy-Xikfhi-15" edge="1" parent="1" source="qRysnB14ObCyy-Xikfhi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qRysnB14ObCyy-Xikfhi-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qRysnB14ObCyy-Xikfhi-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="调用xQueueSendFromISR，&lt;div&gt;将结构体写入CAN接收队列&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="232" x="144" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="qRysnB14ObCyy-Xikfhi-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="开启中断,进行接收" vertex="1">
+          <mxGeometry height="30" width="170" x="175" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="qRysnB14ObCyy-Xikfhi-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;rounded=1;fontSize=15;" value="结束中断" vertex="1">
+          <mxGeometry height="30" width="105" x="207.5" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="qRysnB14ObCyy-Xikfhi-19" edge="1" parent="1" source="qRysnB14ObCyy-Xikfhi-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qRysnB14ObCyy-Xikfhi-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qRysnB14ObCyy-Xikfhi-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;rounded=1;fontSize=15;" value="osDelay100ms" vertex="1">
+          <mxGeometry height="30" width="120" x="530" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qRysnB14ObCyy-Xikfhi-20" edge="1" parent="1" source="qRysnB14ObCyy-Xikfhi-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="qRysnB14ObCyy-Xikfhi-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="220" />
+              <mxPoint x="710" y="135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qRysnB14ObCyy-Xikfhi-23" edge="1" parent="1" source="qRysnB14ObCyy-Xikfhi-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qRysnB14ObCyy-Xikfhi-18" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="CANRxQueue是否有消息" vertex="1">
+          <mxGeometry height="80" width="160" x="510" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="qRysnB14ObCyy-Xikfhi-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是" vertex="1">
+          <mxGeometry height="30" width="30" x="670" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="qRysnB14ObCyy-Xikfhi-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="570" y="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
