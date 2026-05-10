@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="q_w8KTAAlYoK9WPGJVGY-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
-          <mxGeometry height="690" width="1280" x="60" y="10" as="geometry" />
+          <mxGeometry height="690" width="1280" x="40" y="20" as="geometry" />
         </mxCell>
         <mxCell id="4ne_DJa5xoy9OUzq7x1H-5" edge="1" parent="1" source="4ne_DJa5xoy9OUzq7x1H-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4ne_DJa5xoy9OUzq7x1H-4" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -151,7 +151,7 @@
         <mxCell id="q_w8KTAAlYoK9WPGJVGY-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="OsDelay250ms" vertex="1">
           <mxGeometry height="30" width="140" x="720" y="585" as="geometry" />
         </mxCell>
-        <mxCell id="q_w8KTAAlYoK9WPGJVGY-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="警告阈值正常" vertex="1">
+        <mxCell id="q_w8KTAAlYoK9WPGJVGY-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="修改参数, 采样正常(带锁)" vertex="1">
           <mxGeometry height="30" width="140" x="720" y="650" as="geometry" />
         </mxCell>
         <mxCell id="q_w8KTAAlYoK9WPGJVGY-21" edge="1" parent="1" source="q_w8KTAAlYoK9WPGJVGY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4ne_DJa5xoy9OUzq7x1H-17">
@@ -162,7 +162,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="q_w8KTAAlYoK9WPGJVGY-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="警告阈值提高" vertex="1">
+        <mxCell id="q_w8KTAAlYoK9WPGJVGY-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="修改参数,采样禁止(带锁)" vertex="1">
           <mxGeometry height="30" width="140" x="800" y="370" as="geometry" />
         </mxCell>
         <mxCell id="H965uetW_nVsMeKIo6-f-5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="H965uetW_nVsMeKIo6-f-4" value="">
@@ -194,17 +194,6 @@
         </mxCell>
         <mxCell id="H965uetW_nVsMeKIo6-f-9" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fontSize=15;glass=0;strokeColor=#3700CC;fillColor=#6a00ff;fontColor=#ffffff;" value="获取I2CMutex" vertex="1">
           <mxGeometry height="30" width="140" x="750" y="510" as="geometry" />
-        </mxCell>
-        <mxCell id="CQ0xe2v8FOnWJk2myTec-2" edge="1" parent="1" source="CQ0xe2v8FOnWJk2myTec-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1080" y="150" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="CQ0xe2v8FOnWJk2myTec-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" value="温度&amp;gt;45" vertex="1">
-          <mxGeometry height="35" width="120" x="1020" y="55" as="geometry" />
-        </mxCell>
-        <mxCell id="CQ0xe2v8FOnWJk2myTec-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" value="停止均衡" vertex="1">
-          <mxGeometry height="35" width="120" x="1020" y="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,38 +1,38 @@
 <mxfile host="Electron">
   <diagram name="第 1 页" id="o9hZnbxLVpns2QTDMyGr">
-    <mxGraphModel dx="1489" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2054" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="XilGWQoItH7v7N7xG0Z6-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
-          <mxGeometry height="880" width="650" x="260" y="230" as="geometry" />
+          <mxGeometry height="880" width="630" x="240" y="230" as="geometry" />
         </mxCell>
         <mxCell id="XilGWQoItH7v7N7xG0Z6-5" edge="1" parent="1" source="XilGWQoItH7v7N7xG0Z6-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XilGWQoItH7v7N7xG0Z6-4" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XilGWQoItH7v7N7xG0Z6-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="osDelay100ms" vertex="1">
-          <mxGeometry height="30" width="180" x="340" y="260" as="geometry" />
+          <mxGeometry height="30" width="180" x="340" y="280" as="geometry" />
         </mxCell>
         <mxCell id="XilGWQoItH7v7N7xG0Z6-10" edge="1" parent="1" source="XilGWQoItH7v7N7xG0Z6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XilGWQoItH7v7N7xG0Z6-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XilGWQoItH7v7N7xG0Z6-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="喂狗" vertex="1">
-          <mxGeometry height="30" width="180" x="340" y="310" as="geometry" />
+          <mxGeometry height="30" width="180" x="340" y="350" as="geometry" />
         </mxCell>
         <mxCell id="XilGWQoItH7v7N7xG0Z6-11" edge="1" parent="1" source="XilGWQoItH7v7N7xG0Z6-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="XilGWQoItH7v7N7xG0Z6-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XilGWQoItH7v7N7xG0Z6-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;rounded=0;fontSize=15;fontColor=#ffffff;" value="申请全局变量Mutex" vertex="1">
-          <mxGeometry height="30" width="180" x="340" y="370" as="geometry" />
+          <mxGeometry height="30" width="180" x="340" y="410" as="geometry" />
         </mxCell>
-        <mxCell id="EEzNggt31b491tk53XY_-2" edge="1" parent="1" source="XilGWQoItH7v7N7xG0Z6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EEzNggt31b491tk53XY_-1" value="">
+        <mxCell id="XilGWQoItH7v7N7xG0Z6-16" edge="1" parent="1" source="XilGWQoItH7v7N7xG0Z6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XilGWQoItH7v7N7xG0Z6-15" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XilGWQoItH7v7N7xG0Z6-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;rounded=0;fontSize=15;fontColor=#ffffff;" value="释放全局变量Mutex" vertex="1">
-          <mxGeometry height="30" width="180" x="340" y="490" as="geometry" />
+          <mxGeometry height="30" width="180" x="340" y="530" as="geometry" />
         </mxCell>
         <mxCell id="XilGWQoItH7v7N7xG0Z6-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="读取全局变量" vertex="1">
-          <mxGeometry height="30" width="180" x="340" y="430" as="geometry" />
+          <mxGeometry height="30" width="180" x="340" y="470" as="geometry" />
         </mxCell>
         <mxCell id="XilGWQoItH7v7N7xG0Z6-17" edge="1" parent="1" source="XilGWQoItH7v7N7xG0Z6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
           <mxGeometry relative="1" as="geometry">
@@ -121,12 +121,6 @@
         </mxCell>
         <mxCell id="XilGWQoItH7v7N7xG0Z6-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="辅助功能" vertex="1">
           <mxGeometry height="30" width="180" x="610" y="280" as="geometry" />
-        </mxCell>
-        <mxCell id="EEzNggt31b491tk53XY_-3" edge="1" parent="1" source="EEzNggt31b491tk53XY_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XilGWQoItH7v7N7xG0Z6-15" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="EEzNggt31b491tk53XY_-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="获取各任务的栈水位线" vertex="1">
-          <mxGeometry height="30" width="180" x="340" y="550" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
